@@ -1,0 +1,161 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.accueil a {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    left: 51px;
+    top: 43px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav {
+    position: fixed;
+    top:0;
+    padding: 50px; 
+    padding-left: 400px;
+    padding-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 100;
+    height: 100px;
+    font-family: 'poppins', sans-serif;
+
+    
+}
+
+.menu a {
+    position: fixed;
+    writing-mode: vertical-rl;
+    width: 56px;
+    height: 24px;
+    left: 1350px;
+    top: 47px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+
+
+.voyage {
+position: absolute;
+width: 275px;
+height: 366px;
+left: 274px;
+top: 161px;
+}
+
+.photo {
+
+position: absolute;
+width: 334px;
+height: 295px;
+left: 828px;
+top: 519px;
+
+}
+
+.fete {
+position: absolute;
+width: 228px;
+height: 296px;
+left: 583px;
+top: 519px;
+
+
+}
+
+.rire {
+position: absolute;
+width: 240px;
+height: 330px;
+left: 575px;
+top: 160px;
+
+}
+
+.amitié {
+position: absolute;
+width: 330px;
+height: 337px;
+left: 832px;
+top: 161px;
+
+
+}
+
+.manger {
+position: absolute;
+width: 270px;
+height: 259px;
+left: 277px;
+top: 555px;
+
+
+}
+
+
+.images :hover{
+    opacity: 50%;
+
+}
+
+
+.projects p {
+    position:fixed;
+    transform: rotate(90.304deg);
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    height:733px;
+    line-height: normal;
+    top: 385px;
+    left: 993px;
+}
+
+.vertical-line{
+    position: fixed;
+    border-left: 2px solid #000;
+    display: inline-block;
+    margin: 0 82px;
+    height:90px;
+    left: 1307px;
+    bottom:0
+}

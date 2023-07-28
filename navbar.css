@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    top: 0; 
+    height: 100%;  
+    width: 100px;
+}   
+
+
+.menu a {
+    position: fixed;
+    writing-mode: vertical-rl;
+    width: 56px;
+    height: 24px;
+    left: 1350px;
+    top: 56px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+
+.landingpage h1{
+position:absolute;
+width: 409px;
+height: 148px;
+left: 122px;
+top: 323px;
+color: #000;
+font-size: 128px;
+font-weight: 400;
+line-height: 140px;
+letter-spacing: -6.4px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.landingpage h2{
+    position:absolute;
+    width: 1008px;
+    height: 276px;
+    left: 278px;
+    top: 461px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 128px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: -6.4px;
+}
+
+.landingpage p {
+    position:absolute;
+    width: 219px;
+    height: 107px;
+    left: 1120px;
+    top: 610px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.clelia1 {
+    position: absolute;
+    width: 365px;
+    height: 468px;
+    left: 921px;
+    top:112px;
+    flex-shrink: 0;
+}
+.clelia2 {
+    position: absolute;
+    width: 273px;
+    height: 415px;
+    left: 816px;
+    top: 489px;
+    flex-shrink: 0;
+}
+
+
+.projects p {
+    position:fixed;
+    transform: rotate(90.304deg);
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    height:733px;
+    line-height: normal;
+    top: 385px;
+    left: 1002px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.vertical-line{
+    position: fixed;
+    border-left: 2px solid #000;
+    display: inline-block;
+    margin: 0 82px;
+    height:90px;
+    left: 1307px;
+    bottom:0
+}
+

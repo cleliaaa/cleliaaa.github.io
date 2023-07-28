@@ -1,0 +1,272 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    top: 0; 
+    height: 100%;  
+    width: 100px;
+}   
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.menu a {
+    position: fixed;
+    writing-mode: vertical-rl;
+    width: 56px;
+    height: 24px;
+    left: 1350px;
+    top: 47px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+.submenu a {
+    color: #000;
+}
+
+.submenu a:hover {
+    font-weight: bold;
+}
+
+
+.accueil a {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    left: 51px;
+    top: 43px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.tous {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    left: 628px;
+    top: 62px;
+}
+
+.trait {
+    position: absolute;
+    border-top: 1px solid #000; 
+    width: 1125px;
+    left: 156px;
+    top: 120px;
+}
+
+.adidas{
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 160px;
+    top: 235px;
+    width: 290px;
+	height: 200px; 
+    max-width: 100%;
+	height: auto;
+}
+
+
+.habyss{
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 570px;
+    top: 235px;
+    width: 285px;
+	height: 195px; 
+    max-width: 100%;
+	height: auto;
+    border-color: black;
+}
+
+
+.joy{
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 980px;
+    top: 235px;
+    width: 290px;
+	height: 200px; 
+    max-width: 100%;
+	height: auto;
+}
+
+
+.fleche{
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 669px;
+    top: 790px;
+    width: 45px;
+	height: auto;
+    max-width: 100%;
+}
+
+.flechee{
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 720px;
+    top: 790px;
+    width: 45px;
+	height: auto;
+    max-width: 100%;
+    transform: rotate(180deg);
+    
+}
+
+.texteadidas {
+    position: absolute;
+    width: 366px;
+    height: 49px;
+    left: 100px;
+    top: 680px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+.sub {
+    visibility: hidden;
+    transform: translateX(-30px)  rotate(90deg);
+    opacity: 0;
+    transition:0.4s ease all;
+
+    position: absolute;
+    width: 243px;
+    height: 15px;
+    
+    left: 340px;
+    top: 350px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.projectitem:hover .sub {
+    visibility: visible;
+    transform: translateX(0px)  rotate(90deg);
+    opacity: 1;
+}
+
+.textehabyss {
+    position: absolute;
+    width: 366px;
+    height: 49px;
+    left: 560px;
+    top: 680px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;   
+}
+
+
+
+.habyssname {
+    position: absolute;
+    width: 243px;
+    height: 15px;
+    left: 745px;
+    top: 250px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.joyname {
+    position: absolute;
+    width: 243px;
+    height: 15px;
+    left: 1160px;
+    top: 265px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textejoy {
+    position: absolute;
+    width: 347px;
+    height: 49px;
+    left: 953px;
+    top: 680px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.projects p {
+    position:fixed;
+    transform: rotate(90.304deg);
+    color: #000;
+    font-size: 20px;
+    height:733px;
+    line-height: normal;
+    top: 385px;
+    left: 998px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.vertical-line{
+    position: fixed;
+    border-left: 2px solid #000;
+    display: inline-block;
+    margin: 0 82px;
+    height:90px;
+    left: 1307px;
+    bottom:0
+}

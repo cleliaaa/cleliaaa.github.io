@@ -1,0 +1,166 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.accueil a {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    left: 51px;
+    top: 43px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav {
+    position: fixed;
+    top:0;
+    padding: 50px; 
+    padding-left: 400px;
+    padding-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 100;
+    height: 100px;
+    font-family: 'poppins', sans-serif;
+
+    
+}
+
+.menu a {
+    position: fixed;
+    writing-mode: vertical-rl;
+    width: 56px;
+    height: 24px;
+    left: 1350px;
+    top: 47px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+
+
+.forma-links {
+    position: absolute;
+    width: 210px;
+    height: 49px;
+    left: 4px;
+    top: 490px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.deuxieme {
+    font-size:40px;
+}
+
+.premiere:hover {
+    font-size:40px;
+}
+
+.texte h2 {
+position: absolute;
+width: 1017px;
+height: 609px;
+left: 503px;
+top: 320px;
+font-size: 96px;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.texte h3 {
+position: absolute;
+width: 1017px;
+height: 609px;
+left: 503px;
+top: 450px;
+font-size: 24px;
+}
+
+.texte h4 {
+    position: absolute;
+    width: 1017px;
+    height: 609px;
+    left: 503px;
+    top: 485px;
+    font-size: 18px;
+}
+
+.texte h5 {
+    position: absolute;
+    width: 1017px;
+    height: 609px;
+    left: 503px;
+    top: 540px;
+    font-size: 20px;
+    font-weight: normal;
+ }
+
+.texte h6 {
+        position: absolute;
+        width: 1017px;
+        height: 609px;
+        left: 503px;
+        top: 650px;
+        font-size: 18px;
+        font-weight: normal;
+}
+
+.formatexte {
+    position:fixed;
+    transform: rotate(90.304deg);
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    height:733px;
+    line-height: normal;
+    top: 370px;
+    left: 985px;
+}
+
+.vertical-line{
+    position: fixed;
+    border-left: 2px solid #000;
+    display: inline-block;
+    margin: 0 82px;
+    height:90px;
+    left: 1307px;
+    bottom:0
+}
