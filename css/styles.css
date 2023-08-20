@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer default {
+  :root {
+    --primary: #d9cec4;
+    --secondary: #d9cec4;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: var(--primary);
+  font-weight: 400;
+  line-height: 1.75;
+  list-style-type: none;
+  text-decoration: none;
+  height: 100%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1,
+.h1 {
+  margin-top: 0;
+  font-size: 5.653rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2,
+.h2 {
+  font-size: 3.998rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.827rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.999rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.414rem;
+}
+
+p {
+    font-size: 1rem;
+
+}
+
+small,
+.text_small {
+  font-size: 0.707rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+strong {
+    font-weight: 600;
+}
+
+nav {
+    font-size: 1.125rem;
+    display: none;
+    text-align: center;
+    width: 100%;
+  
+   @media (min-width: 800px) {
+     display: inline-block;
+  }
+}
+
+nav li {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  justify-content: space-between;
+  margin-inline: 20px;
+
+
+  @media (min-width: 800px) {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+
+nav li:hover {
+  border-bottom: 1px solid black;
+}
+
+a {
+  list-style: none;
+  color: black;
+}
+
+
+.accueil {
+  position: fixed;
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 200px;
+}
+
+.tous {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #000; 
+  padding-bottom: 20px;
+  width:50%; 
+  margin:0 auto;
+}
+@media all and (max-width:700px){
+  .tous {
+      visibility: hidden;
+
+  }
+}
+
+.menu {
+  position: fixed;
+  writing-mode: vertical-rl;
+  height: 24px;
+  right: 26px;
+  top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  list-style-type: none;
+  padding-top: 12px;
+}
+
+.menu :hover {
+  transition: 0,5s;
+  font-size: 21px;
+}
+
+
+.aside {
+  position: fixed;
+  right: 0px;
+  bottom:0;
+}
+
+.asidep {
+  display: flex;
+  flex-wrap: nowrap;
+  transform: rotate(90deg);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+
+.aside span {
+  display: flex;
+  flex-wrap: nowrap;
+  border-left: 2px solid #000;
+  height: 60px;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.bigtitle {
+  padding-top: 150px;
+  padding-bottom: 15.25rem;
+  font-weight: 500;
+
+    @media (min-width: 800px) {
+        padding-bottom: 17.25rem;
+        padding-left: 15.25rem;
+        padding-top: 12.25rem;
+        font-weight: 500;
+
+
+      }
+}
+
+.premiere {
+    font-size: 40px;
+    height: 40px;
+}
+.deuxieme {
+    font-size:40px;
+    height: 40px;
+
+}
+.troisieme {
+    font-size: 40px;
+    height: 40px;
+
+
+}
+
+.years {
+  position: fixed;
+  left: 4px;
+  top: 360px;
+  @media (max-width: 800px) {
+    display:none;
+  }
+}
+
+.years a {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;  
+}
+.years a:hover{
+    font-size: 30px;
+}
+
+.wrapper {
+margin: 0 auto;
+  
+}
+
+header {
+  width: calc(100%);
+  top: 0;
+  padding: 1rem;
+  position: sticky;
+  background-color: var(--primary);
+
+}
+
+
+section h1 {
+    margin-top: 200px;
+}
+@media (min-width: 800px){
+    section {
+        padding-inline: 15.25rem;
+    }
+}
+
+.competences {
+    display: flex;
+    flex-shrink: none;
+    padding-inline: none;
+
+}
+
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  
+   @media (min-width: 800px) {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.toggle-menu {
+  position: fixed;
+  top: 1.4rem;
+  left: 1rem;
+  width: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  
+   @media (min-width: 800px) {
+     display: none;
+  }
+}
+
+.toggle-menu--active ~ header nav {
+  display: inline-block;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Montserrat',"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: #D9CCC1;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+.card-content span {
+  font-size: 1rem;
+}
+
+.b1 {
+    padding-bottom: 2rem;
+}
+
+
+.carousel {
+    padding-top: 40px;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px; /*250px pour mobile*/
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    margin-left: 1rem;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 4rem;
+    scroll-snap-align: start;
+}
+.carousel img {
+    height: 355px;
+    max-height: 100%;
+	width: auto;
+}
+
+.img{
+    width: 400px;
+	height: auto;
+
+}
+
+.card-title {
+    border-bottom: none;
+}
+
+.h2real {
+    text-align: center;
+}
+
+.menutextglobal {
+  color:#000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  margin-top: 5rem;
+  margin-left: 50px;
+  @media (max-width: 650px) {
+    font-size: 44px;
+    transition: all 1s ease-out;
+
+  }
+}
+
+.menutext {
+  padding: 40px;
+}
+.num {
+  padding-right: 100px;
+}
+
+hr {
+  color: black;
+}
+
+.landingpage h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  padding-left: 122px;
+  line-height: 140px;
+  height: 50%;
+  @media (max-width:1250px){
+    font-size: 60px;
+    padding-left: 22px;
+    margin:0;
+  }
+}
+.landingpage {
+  padding-top:112px;
+  @media (max-width:1250px){
+    padding-top:80px;
+
+  }
+
+}
+
+.title2index{
+  padding-left: 156px;
+  @media (max-width:1250px){
+    padding-left: 90px;
+  }
+}
+
+
+
+
+.landingpage h2 {
+  position: absolute;
+  width: 219px;
+  top: 550px;
+  right: 170px;
+  color: #000;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+  @media (max-width:1250px){
+    position: absolute;
+    width: 319px;
+    font-size:1rem;
+    top: 360px;
+    left: 160px;
+  }
+
+}
+
+.clelia2 {
+  position: absolute;
+  max-width: 330px;
+  height: auto;
+  top: 100px;
+  right: 200px;
+  @media (max-width:1250px){
+    position: absolute;
+    max-width: 330px;
+    height: auto;
+    top: 100px;
+    right: 200px;  
+  }
+  @media (max-width:1000px){
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    top: 100px;
+    right: 150px;  
+  }
+
+  @media (max-width:800px){
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    top: 450px;
+    left: 190px;
+  }
+}
+.clelia1 {
+    z-index: 1;
+    position: absolute;
+    width: 233px;
+    height: auto;
+    right: 420px;
+    top: 440px;
+
+  @media (max-width:1250px){
+    position: absolute;
+    width: 233px;
+    height: auto;
+    right: 420px;
+    top: 440px;
+  }
+  @media (max-width:1000px){
+    position: absolute;
+    width: 133px;
+    height: auto;
+    right: 370px;
+    top: 440px;
+  }
+  
+
+  @media (max-width:800px){
+    position: absolute;
+    width: 133px;
+    height: auto;
+    left: 80px;
+    top: 560px;
+  }
+}
+
+address a {
+  font-style: normal;
+}
+address a:hover {
+  text-decoration: underline;
+}
+
+.contactezmoi {
+  padding-bottom: 50px;
+  padding-top: 50px;
+@media (min-width: 800px) {
+  padding-left: 93px;
+  padding-top: 70px;
+  padding-bottom: 50px;}
+}
+
+.photoclelia {
+  @media (max-width: 1250px) {
+    display:none;
+}
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+.icons {
+  position:fixed;
+  left: 4px;
+  top: 45%;
+}
+
+.icons img {
+  width: 50px;
+  max-width: 100%;
+	height: auto;
+  border-radius: 10px;
+}
+
+
+
+.ps:hover {
+  width: 60px;
+height: 50px; 
+  max-width: 100%;
+height: auto;
+}
+
+.ai:hover {
+  width: 60px;
+  height: 50px; 
+  max-width: 100%;
+  height: auto;
+}
+
+.figma:hover {
+  width: 60px;
+  height: 50px; 
+  max-width: 100%;
+  height: auto;
+}
+
+.fleches {
+  position:fixed;
+  right: 30px;
+  top: 45%;
+}
+.fleches p {
+  color: #000;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+.bigtitleprojet {
+  padding-left: 15.25rem;
+  padding-top: 5.25rem;
+  font-weight: 500;
+
+  @media (max-width: 800px) {
+    padding-left: 3rem;
+
+  }
+}
+
+.subtitle {
+  padding-left: 3rem;
+
+  @media (min-width: 800px) {
+    padding-left: 15.25rem;
+  }
+
+}
+
+.adidasapp {
+  display: flex;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  
+  @media (min-width: 800px) {
+  width: 800px;
+  height:auto;
+  align-items: center;
+  margin: auto;
+}
+}
+
+.joyapp {
+  display: flex;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  margin:auto;
+  
+  @media (min-width: 800px) {
+  width: 900px;
+  height:auto;
+  align-items: center;
+  margin: auto;
+  margin-top: 60px;
+}
+}
+
+.habyssimg {
+  display: flex;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  margin:auto;
+  
+  @media (min-width: 800px) {
+  width: 900px;
+  height:auto;
+  align-items: center;
+  margin: auto;
+}
+}
+
+
+.textes{
+  width: 100%;
+}
+
+.textes h3 {
+  margin-top: 80px;
+  border-bottom: 3px beige;
+}
+
+@media (min-width: 1000px) {
+.droite {
+  padding-left: 20%;
+}
+}
+@media (min-width: 1000px) {
+  .gauche {
+    padding-left: 10%;
+  }
+  }
+
+.textes p{
+  width: 500px;
+}
+
+.textes h3 {
+  margin-top: 400px;
+}
+
+
+.diapo {
+  margin: auto;
+}
+
+@media (min-width:800px) {
+.articletext {
+  padding: 90px;
+  }
+}
+
+.title {
+  padding-bottom: 300px;
+}
+
+.textglobal {
+  padding: 60px;
+}
