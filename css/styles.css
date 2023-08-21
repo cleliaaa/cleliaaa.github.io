@@ -319,33 +319,40 @@ section h1 {
   display: inline-block;
 }
 
-button {
+.button {
     cursor: pointer;
     font-weight: 700;
     font-family: 'Montserrat',"sans-serif";
+    color:black;
+    text-decoration:none;
     transition: all .2s;
-    padding: 10px 20px;
+    padding:12px 15px;
     border-radius: 100px;
-    background-color: #D9CCC1;
+    background: #D9CCC1;
     border: 1px solid black;
     align-items: center;
     font-size: 15px;
     font-weight: 600;
   }
-  button > svg {
+  .button > svg {
     width: 34px;
     margin-left: 10px;
     transition: transform .3s ease-in-out;
   }
   
-  button:hover svg {
+  .button:hover svg {
     transform: translateX(5px);
   }
   
-  button:active {
+  .button:active {
     transform: scale(0.95);
   }
   
+.card-content svg {
+  vertical-align:middle;
+  margin-bottom: 1px;
+}
+
 .card-content span {
   font-size: 1rem;
 }
@@ -698,8 +705,12 @@ height: auto;
   margin-top: 80px;
   border-bottom: 3px beige;
 }
-
 @media (min-width: 1000px) {
+  .droite {
+    padding-left: 8%;
+  }
+  }
+@media (min-width: 1380px) {
 .droite {
   padding-left: 20%;
 }
@@ -708,7 +719,16 @@ height: auto;
   .gauche {
     padding-left: 10%;
   }
+}
+
+.droitediv {
+  display: flex;
+  flex-shrink: shrink;
+@media (min-width: 1200px;){
+    flex-shrink: shrink;
+
   }
+}
 
 .textes p{
   width: 500px;
@@ -719,8 +739,9 @@ height: auto;
 }
 
 
-.diapo {
-  margin: auto;
+.buttondiv {
+padding-left: 43%;
+padding-bottom: 70px;
 }
 
 @media (min-width:800px) {
@@ -736,3 +757,4 @@ height: auto;
 .textglobal {
   padding: 60px;
 }
+
