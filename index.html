@@ -787,25 +787,11 @@
     var swiper = new Swiper(".mySwiperPort", {
       slidesPerView: 1,
       spaceBetween: 10,
-      breakpoints: {
-      '@0.80': {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-      '@1.40': {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },  
       loop: true,
       navigation: {
         nextEl: ".swiper-button-next-3",
         prevEl: ".swiper-button-prev-3",
       },
-    }  });
-
-    var swiper4 = new Swiper(".mySwiperBlog", {
-      slidesPerView: 1,
-      spaceBetween: 10,
       breakpoints: {
       '@0.80': {
       slidesPerView: 2,
@@ -815,11 +801,27 @@
       slidesPerView: 3,
       spaceBetween: 30,
     },  
+
+    }  });
+
+    var swiper4 = new Swiper(".mySwiperBlog", {
+      slidesPerView: 1,
+      spaceBetween: 10,
       loop: true,
       navigation: {
         nextEl: ".swiper-button-next-4",
         prevEl: ".swiper-button-prev-4",
       },
+      breakpoints: {
+      '@0.80': {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+      '@1.40': {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },  
+
     } });
   </script>
 
