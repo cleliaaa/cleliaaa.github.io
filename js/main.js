@@ -15,7 +15,7 @@ const interval = setInterval(function(){
         counter = 0;
     }
     points[counter].classList.add('selected');
-}, 2000)
+}, 3000)
 
 
 points.forEach((point, index) => {
@@ -50,7 +50,7 @@ const interval2 = setInterval(function(){
         counter2 = 0;
     }
     points2[counter2].classList.add('selected');
-}, 2000)
+}, 3000)
 
 
 points2.forEach((point, index) => {
