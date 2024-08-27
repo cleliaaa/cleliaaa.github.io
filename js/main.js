@@ -7,7 +7,7 @@ const interval = setInterval(function(){
     points.forEach(point => {
         point.classList.remove('selected')
     })
-    if(counter < 2) {
+    if(counter < 3) {
         counter++
         slider.style.left = `-${counter * 100}%`;
     } else {
@@ -34,7 +34,7 @@ points.forEach((point, index) => {
 
 
 const slider2 = document.querySelector('.blog-inner2');
-const points2 = document.querySelectorAll('.blog-navigation span2');
+const points2 = document.querySelectorAll('.blog-navigation2 span');
 
 var counter2 = 0;
 
